@@ -1,5 +1,5 @@
 body {
-  background-color: lightblue;
+  background-color: #87CEFA;
 }
 
 p {
@@ -9,18 +9,18 @@ p {
 .imgSize {
   width: 100px;
   border-style: solid;
-  border-with: 5px;
+  border-width: 5px;
   border-color: red;
   border-radius: 70%;
 }
 
-@media only screen and (min-width: 500px) {
+@media only screen and (max-width: 500px) {
   body {
     background-color: yellow;
   }
 
   nav {
-    float: middle;
+    margin: 0 auto;
     width: 100%;
   }
 }
@@ -47,7 +47,7 @@ nav {
 
 .borderSty1 {
   border-width: 3px;
-  borer-color: green;
+  border-color: green;
   border-style: solid;
   border-radius: 10px;
   background-color: lightgreen;
@@ -55,7 +55,7 @@ nav {
 
 .borderSty2 {
   border-width: 3px;
-  borer-color: white;
+  border-color: white;
   border-style: solid;
   border-radius: 10px;
   background-color: orange;
