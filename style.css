@@ -1,5 +1,5 @@
 body {
-  background-color: #87CEFA;
+  background-color: yellow;
 }
 
 p {
@@ -16,7 +16,7 @@ p {
 
 @media only screen and (max-width: 500px) {
   body {
-    background-color: yellow;
+    background-color: #87CEFA;
   }
 
   nav {
